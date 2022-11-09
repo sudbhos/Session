@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Surname</title>
+</head>
+<body>
+<h1>Please provide the surname..</h1>
+<form action="/city_view">
+     {{ form.as_p }}
+    {% csrf_token %}
+ <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
